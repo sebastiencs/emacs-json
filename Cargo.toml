@@ -1,0 +1,13 @@
+[package]
+name = "emacs-json-lsp"
+version = "0.1.0"
+authors = ["Sebastien Chapuis <sebastien@chapu.is>"]
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+emacs = "0.5"
+libc = "0.2"
+serde_json = "1.0.13"
+time = "*"
